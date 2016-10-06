@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<JboProject
+   id="DataBindings"
+   xmlns="http://xmlns.oracle.com/adfm"
+   SeparateXMLFiles="false"
+   Package=""
+   ClientType="Generic" >
+   <Contents >
+      <DataControl
+         id="com_jdevbook_chap7_model_AppModuleDataControl"
+         SupportsFindMode="true"
+         SupportsTransactions="true"
+         Package="com.jdevbook.chap7.model"
+         Configuration="AppModuleLocal"
+         FactoryClass="oracle.adf.model.bc4j.DataControlFactoryImpl" >
+      </DataControl>
+      <Containee
+         id="StudentSearchUIModel"
+         ObjectType="BindingContainerReference"
+         FullName="com.jdevbook.chap7.view.StudentSearchUIModel" >
+      </Containee>
+   </Contents>
+</JboProject>

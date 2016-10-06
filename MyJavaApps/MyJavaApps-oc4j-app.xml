@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'windows-1252'?>
+<!DOCTYPE orion-application PUBLIC "-//Evermind//DTD J2EE Application runtime 1.2//EN" "http://xmlns.oracle.com/ias/dtds/orion-application.dtd">
+<orion-application>
+  <web-module id="MyJavaApps-BasicWebApp-webapp" path="E:\JDeveloper10g\jdev\mywork\MyJavaApps\BasicWebApp\public_html"/>
+  <web-module id="MyJavaApps-StrutsApp-webapp" path="E:\JDeveloper10g\jdev\mywork\MyJavaApps\StrutsApp\public_html"/>
+  <log>
+    <file path="MyJavaApps-oc4j-app.log"/>
+  </log>
+  <jazn provider="XML" location="MyJavaApps-jazn-data.xml" default-realm="jazn.com"/>
+  <data-sources path="MyJavaApps-data-sources.xml"/>
+</orion-application>

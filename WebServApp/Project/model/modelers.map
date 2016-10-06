@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'windows-1252'?>
+<ModelersMap class="java.util.HashMap">
+   <Item>
+      <Key>20737a1a-00f8-1000-8002-3d0168399998</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com</Item>
+         <Item/>
+         <Item>UMLPackage</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>20737a59-00f8-1000-8003-3d0168399998</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook</Item>
+         <Item/>
+         <Item>UMLPackage</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>20737a59-00f8-1000-8004-3d0168399998</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook.chap8</Item>
+         <Item/>
+         <Item>UMLPackage</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>207380c1-00f8-1000-8005-3d0168399998</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook.chap8.Web Service Diagram1</Item>
+         <Item>oxd_ws</Item>
+         <Item>Diagram</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>2074256e-00f8-1000-8006-3d0168399998</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook.chap8.My Web Service Diagram</Item>
+         <Item>oxd_ws</Item>
+         <Item>Diagram</Item>
+      </Value>
+   </Item>
+</ModelersMap>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='windows-1252' ?>
+<!DOCTYPE JboProject SYSTEM "jbo_03_01.dtd">
+
+<JboProject
+   Name="Model"
+   SeparateXMLFiles="true"
+   PackageName="" >
+   <DesignTime>
+      <Attr Name="_version" Value="9.0.5.15.88" />
+      <Attr Name="_jprName" Value="../Model.jpr" />
+      <Attr Name="_ejbPackage" Value="false" />
+      <Attr Name="_NamedConnection" Value="OracleDBConn" />
+      <Attr Name="_appModuleNames0" Value="com.jdevbook.chap7.model.AppModule" />
+   </DesignTime>
+   <Containee
+      Name="com"
+      FullName="com.com"
+      ObjectType="JboPackage" >
+   </Containee>
+   <Containee
+      Name="jdevbook"
+      FullName="com.jdevbook.jdevbook"
+      ObjectType="JboPackage" >
+   </Containee>
+   <Containee
+      Name="chap7"
+      FullName="com.jdevbook.chap7.chap7"
+      ObjectType="JboPackage" >
+   </Containee>
+   <Containee
+      Name="model"
+      FullName="com.jdevbook.chap7.model.model"
+      ObjectType="JboPackage" >
+   </Containee>
+</JboProject>

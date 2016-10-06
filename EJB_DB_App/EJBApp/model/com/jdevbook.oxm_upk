@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<?Oracle-JDeveloper Artifact = '1.0'?>
+<artifact xmlns="http://xmlns.oracle.com/jdeveloper/modeler/artifact" name="jdevbook" type="UMLPackage" cid="b39fbdc2-00f7-1000-8002-7f0000019fc4::com.jdevbook::UMLPackage">
+   <property xmlns="">
+      <cid name="NAMESPACE_REFERENCE" key="b39fbd54-00f7-1000-8001-7f0000019fc4::com::UMLPackage"/>
+      <null name="COMMENT"/>
+   </property>
+   <backreference xmlns=""/>
+   <children xmlns=""/>
+</artifact>

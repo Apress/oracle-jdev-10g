@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'windows-1252'?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+  <description>Empty web.xml file for Web Application</description>
+  <servlet>
+    <servlet-name>MyWebService1</servlet-name>
+    <servlet-class>oracle.j2ee.ws.StatelessJavaRpcWebService</servlet-class>
+    <init-param>
+      <param-name>class-name</param-name>
+      <param-value>com.jdevbook.chap8.ServiceClass</param-value>
+    </init-param>
+    <init-param>
+      <param-name>interface-name</param-name>
+      <param-value>com.jdevbook.chap8.IMyWebService1</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MyWebService1</servlet-name>
+    <url-pattern>/MyWebService1</url-pattern>
+  </servlet-mapping>
+  <session-config>
+    <session-timeout>35</session-timeout>
+  </session-config>
+  <mime-mapping>
+    <extension>html</extension>
+    <mime-type>text/html</mime-type>
+  </mime-mapping>
+  <mime-mapping>
+    <extension>txt</extension>
+    <mime-type>text/plain</mime-type>
+  </mime-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+</web-app>

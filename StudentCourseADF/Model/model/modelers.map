@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'windows-1252'?>
+<ModelersMap class="java.util.HashMap">
+   <Item>
+      <Key>cfa60e45-00f7-1000-8001-7f000001585e</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com</Item>
+         <Item/>
+         <Item>UMLPackage</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>cfa60eb2-00f7-1000-8002-7f000001585e</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook</Item>
+         <Item/>
+         <Item>UMLPackage</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>cfa60eb2-00f7-1000-8003-7f000001585e</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook.chap7</Item>
+         <Item/>
+         <Item>UMLPackage</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>cfa60eb2-00f7-1000-8004-7f000001585e</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook.chap7.model</Item>
+         <Item/>
+         <Item>UMLPackage</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>cfa6120d-00f7-1000-8005-7f000001585e</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook.chap7.model.StudentCourse Components Diagram</Item>
+         <Item>oxd_bc4j</Item>
+         <Item>Diagram</Item>
+      </Value>
+   </Item>
+</ModelersMap>

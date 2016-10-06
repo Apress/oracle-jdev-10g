@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<DCContainer
+   id="PanelStudentView2UIModel"
+   xmlns="http://xmlns.oracle.com/adfm"
+   Package="com.jdevbook.chap7" >
+   <Contents >
+      <DCIterator
+         id="StudentView2Iter"
+         Binds="com_jdevbook_chap7_model_AppModuleDataControl.StudentView2" >
+      </DCIterator>
+      <DCControl
+         id="StudentView2"
+         DefClass="oracle.jbo.uicli.jui.JUTableDef"
+         SubType="DCTable"
+         IterBinding="StudentView2Iter" >
+         <AttrNames>
+            <Item Value="StudentId" />
+            <Item Value="StudentName" />
+            <Item Value="CourseId" />
+         </AttrNames>
+      </DCControl>
+   </Contents>
+</DCContainer>

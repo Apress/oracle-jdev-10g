@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='windows-1252' ?>
+<!DOCTYPE ViewObject SYSTEM "jbo_03_01.dtd">
+
+<ViewObject
+   Name="JavaCourseView"
+   SelectList="Course.COURSE_NAME, 
+       Course.COURSE_ID, 
+       Student.STUDENT_NAME, 
+       Student.STUDENT_ID"
+   FromList="COURSE Course, STUDENT Student"
+   Where="Course.COURSE_ID = Student.COURSE_ID
+AND Course.COURSE_NAME LIKE &#39;Java%&#39;"
+   BindingStyle="Oracle"
+   CustomQuery="false"
+   ComponentClass="com.jdevbook.chap7.model.JavaCourseViewImpl"
+   MsgBundleClass="oracle.jbo.common.JboResourceBundle"
+   UseGlueCode="false" >
+   <DesignTime>
+      <Attr Name="_version" Value="9.0.5.13.52" />
+      <Attr Name="_CodeGenFlagNew" Value="36" />
+      <Attr Name="_isExpertMode" Value="false" />
+   </DesignTime>
+   <EntityUsage
+      Name="Course"
+      Entity="com.jdevbook.chap7.model.Course" >
+      <DesignTime>
+         <Attr Name="_EntireObjectTable" Value="false" />
+         <Attr Name="_queryClause" Value="true" />
+         <Attr Name="_queryWhere" Value="Course.COURSE_ID = Student.COURSE_ID
+AND Course.COURSE_NAME LIKE &#39;Java%&#39;" />
+      </DesignTime>
+   </EntityUsage>
+   <EntityUsage
+      Name="Student"
+      Entity="com.jdevbook.chap7.model.Student"
+      Association="com.jdevbook.chap7.model.StudentCourseFk1Assoc"
+      AssociationEnd="com.jdevbook.chap7.model.StudentCourseFk1Assoc.Student"
+      SourceUsage="com.jdevbook.chap7.model.JavaCourseView.Course"
+      ReadOnly="true"
+      Reference="true" >
+      <DesignTime>
+         <Attr Name="_EntireObjectTable" Value="false" />
+         <Attr Name="_queryClause" Value="false" />
+         <AttrArray Name="_srcAttributes">
+            <Item Value="com.jdevbook.chap7.model.Course.CourseId" />
+         </AttrArray>
+         <AttrArray Name="_dstAttributes">
+            <Item Value="com.jdevbook.chap7.model.Student.CourseId" />
+         </AttrArray>
+      </DesignTime>
+   </EntityUsage>
+   <ViewAttribute
+      Name="CourseName"
+      EntityAttrName="CourseName"
+      EntityUsage="Course"
+      AliasName="COURSE_NAME" >
+   </ViewAttribute>
+   <ViewAttribute
+      Name="CourseId"
+      IsNotNull="true"
+      EntityAttrName="CourseId"
+      EntityUsage="Course"
+      AliasName="COURSE_ID" >
+   </ViewAttribute>
+   <ViewAttribute
+      Name="StudentName"
+      EntityAttrName="StudentName"
+      EntityUsage="Student"
+      AliasName="STUDENT_NAME" >
+   </ViewAttribute>
+   <ViewAttribute
+      Name="StudentId"
+      IsNotNull="true"
+      EntityAttrName="StudentId"
+      EntityUsage="Student"
+      AliasName="STUDENT_ID" >
+   </ViewAttribute>
+</ViewObject>

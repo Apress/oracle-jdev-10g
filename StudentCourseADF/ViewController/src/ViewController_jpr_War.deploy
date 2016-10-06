@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'windows-1252'?>
+<web-app-deployment nselem="web-app-deployment" class="oracle.jdeveloper.deploy.war.WarProfile" xmlns="http://xmlns.oracle.com/jdeveloper/905/deploy/j2ee-war">
+   <appletArchiveName/>
+   <appletArchives>
+      <archives/>
+      <selectionMode>0</selectionMode>
+   </appletArchives>
+   <appletDeployedAsArchive>false</appletDeployedAsArchive>
+   <appletDeployment>false</appletDeployment>
+   <appletFiles>
+      <autoInclude>true</autoInclude>
+      <deploySourceAs>0</deploySourceAs>
+      <files/>
+      <selectionFilters>
+         <Item id="0">oracle.jdevimpl.deploy.common.JavaSelectionFilter</Item>
+      </selectionFilters>
+   </appletFiles>
+   <appletLocation/>
+   <archiveOptions>
+      <additionalManifests/>
+      <compressed>false</compressed>
+      <hasManifest>false</hasManifest>
+      <mainClass/>
+   </archiveOptions>
+   <cdaSettings>
+      <additionalArchives/>
+      <afterFilters/>
+      <beforeFilters/>
+      <duringFilters/>
+      <selectedArchives>
+         <archives>
+            <Item path="../../../../../jlib/uix2.jar" jar-entry=""/>
+            <Item path="../../../../../jakarta-commons-el/commons-el.jar" jar-entry=""/>
+            <Item path="../../../../../jakarta-commons-el/jsp-el-api.jar" jar-entry=""/>
+            <Item path="../../../../../jakarta-commons-el/oracle-el.jar" jar-entry=""/>
+            <Item path="../../../../../jlib/regexp.jar" jar-entry=""/>
+            <Item path="../../../../../jlib/share.jar" jar-entry=""/>
+            <Item path="../../../../../jlib/uixadfrt.jar" jar-entry=""/>
+            <Item path="../../../../../jakarta-struts/lib/struts.jar" jar-entry=""/>
+            <Item path="../../../../../jakarta-struts/lib/commons-beanutils.jar" jar-entry=""/>
+            <Item path="../../../../../jakarta-struts/lib/commons-collections.jar" jar-entry=""/>
+            <Item path="../../../../../jakarta-struts/lib/commons-fileupload.jar" jar-entry=""/>
+            <Item path="../../../../../jakarta-struts/lib/commons-digester.jar" jar-entry=""/>
+            <Item path="../../../../../jakarta-struts/lib/commons-lang.jar" jar-entry=""/>
+            <Item path="../../../../../jakarta-struts/lib/commons-logging.jar" jar-entry=""/>
+            <Item path="../../../../../jakarta-struts/lib/commons-validator.jar" jar-entry=""/>
+            <Item path="../../../../../jakarta-struts/lib/jakarta-oro.jar" jar-entry=""/>
+         </archives>
+         <selectionMode>0</selectionMode>
+      </selectedArchives>
+   </cdaSettings>
+   <contextRoot/>
+   <defaultConnection/>
+   <deployClientMaxHeapSize/>
+   <earURL path="../deploy/ViewController_jpr_War.ear"/>
+   <enterpriseAppName>ViewController_jpr_War</enterpriseAppName>
+   <javaFiles>
+      <autoInclude>true</autoInclude>
+      <deploySourceAs>0</deploySourceAs>
+      <files/>
+      <selectionFilters>
+         <Item idref="0"/>
+      </selectionFilters>
+   </javaFiles>
+   <profileDeps/>
+   <properties/>
+   <warURL path="../deploy/ViewController_jpr_War.war"/>
+   <webSelectionRules>
+      <rules>
+         <Item>
+            <pattern>**/CVS/</pattern>
+            <type>1</type>
+         </Item>
+         <Item>
+            <pattern>**.contrib</pattern>
+            <type>1</type>
+         </Item>
+         <Item>
+            <pattern>**.keep</pattern>
+            <type>1</type>
+         </Item>
+         <Item>
+            <pattern>**.rvi</pattern>
+            <type>1</type>
+         </Item>
+         <Item>
+            <pattern>**</pattern>
+            <type>0</type>
+         </Item>
+      </rules>
+   </webSelectionRules>
+</web-app-deployment>

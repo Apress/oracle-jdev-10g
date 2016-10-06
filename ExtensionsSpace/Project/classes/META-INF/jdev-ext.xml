@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'windows-1252'?>
+<extensions>
+   <feature>
+      <group name="New Extension Group">
+         <description>This is a newly created Extension Group, you should rename this description to something related to this extension group</description>
+         <extension>
+            <addin>com.jdevbook.chap10.LogExtension</addin>
+         </extension>
+      </group>
+   </feature>
+</extensions>

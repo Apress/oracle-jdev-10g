@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+<html  xmlns="http://www.w3.org/1999/xhtml" xmlns:uml="http://xmlns.oracle.com/jdeveloper/905/modeler/html">
+
+
+   <!-- Header block, contains id for element, this is mandatory -->
+
+   <head>
+     <meta http-equiv="content-type" content="text/html; charset=UTF8" />
+     <meta name="generator" content="Oracle JDeveloper" />
+
+     <title>Template</title>
+
+     <uml:modelElement_id guid="4e87f8df-00f7-1000-800d-7f000001a44e" />
+   </head>
+
+
+   <!-- Body block, contains the descriptions -->
+
+   <body>
+
+      <table width="100%" border="0">
+
+			<tr>
+
+				<td width="50%" valign="top">
+
+					<!-- Extends block, can contain a link to the usecase that this
+							one extends, this part is optional -->
+
+					<h3>Extends :</h3>
+
+					<uml:usecase_extends>
+
+						<p></p>
+
+					</uml:usecase_extends>
+
+				</td>
+
+
+				<td width="50%" valign="top">
+
+
+					<!-- Specialization block, can contain a link to the usecase that this
+							one extends, this part is optional -->
+
+					<h3>Specializes :</h3>
+
+					<uml:class_specializes>
+
+						<p></p>
+
+					</uml:class_specializes>
+
+
+				</td>
+
+
+			</tr>
+
+
+
+			<tr>
+
+
+				<td width="50%" valign="top">
+
+
+					<h3>Level :</h3> <uml:usecase_level>Summary</uml:usecase_level>
+
+					<!-- The scope of the current usecase, this part of optional -->
+
+					<h3>Scope :</h3>
+
+					<uml:usecase_scope>
+
+						<p></p>
+
+					</uml:usecase_scope>
+
+				</td>
+
+
+				<td width="50%" valign="top">
+
+					<!-- Communicates needs to contain all actors that are considered to
+							communicate with this usecase -->
+
+
+					<h3>Stakeholder(s) :</h3>
+
+
+					<uml:usecase_communicates>
+
+
+						<ul>
+						  <li><a href="Reporting System.xhtml_act">Reporting System</a></li>
+							<li><uml:next /></li>
+						</ul>
+
+					</uml:usecase_communicates>
+
+				</td>
+			</tr>
+
+
+
+			<tr>
+
+			   <td valign="top" colspan="2">
+
+					<!-- Conditions, contain information that may be used
+							in later versions of the tool as constraints_ It is included
+							as a placeholder in this release so is optional -->
+
+					<h3>Precondition :</h3>
+
+
+					<uml:usecase_conditions>
+
+					   <p> </p>
+
+
+					</uml:usecase_conditions>
+
+
+			   </td>
+
+			</tr>
+
+		</table>
+
+
+      <!-- The main story of the usecase -->
+
+
+      <h3>Scenario :</h3>
+
+      <uml:usecase_includes>
+
+         <p></p>
+         <p></p>
+         <p></p>
+
+
+      </uml:usecase_includes>
+
+      <!-- This section is used by the tools to record which object
+            uses which document. This section is mandatory; but not
+            designed to be user edited so it may be wise to hide
+            this block in the HTML -->
+
+
+      <h3>Referenced By :</h3>
+
+      <uml:backreferences>
+
+         <ul>
+            <li><uml:next /></li>
+         </ul>
+
+
+      </uml:backreferences>
+
+
+   </body>
+</html>

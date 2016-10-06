@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'windows-1252'?>
+<!DOCTYPE orion-application PUBLIC "-//Evermind//DTD J2EE Application runtime 1.2//EN" "http://xmlns.oracle.com/ias/dtds/orion-application.dtd">
+<orion-application>
+  <ejb-module path="file:/E:/JDeveloper10g/jdev/mywork/DateApp/Model/classes/"/>
+  <web-module id="DateApp-ViewController-webapp" path="E:\JDeveloper10g\jdev\mywork\DateApp\ViewController\public_html"/>
+  <library path="E:\JDeveloper10g\jdev\mywork\DateApp\Model\classes">jdev-generated</library>
+  <library path="E:\JDeveloper10g\jdev\system9.0.5.1.1605\oc4j-config\.client">jdev-generated</library>
+  <library path="E:\JDeveloper10g\lib\xmlcomp.jar">jdev-generated</library>
+  <log>
+    <file path="DateApp-oc4j-app.log"/>
+  </log>
+  <jazn provider="XML" location="DateApp-jazn-data.xml" default-realm="jazn.com"/>
+  <data-sources path="DateApp-data-sources.xml"/>
+</orion-application>

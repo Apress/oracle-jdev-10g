@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'windows-1252'?>
+<simple-archive-deployment nselem="simple-archive-deployment" class="oracle.jdeveloper.deploy.jar.ArchiveProfile" xmlns="http://xmlns.oracle.com/jdeveloper/905/deploy/jar">
+   <archiveOptions>
+      <additionalManifests/>
+      <compressed>false</compressed>
+      <hasManifest>true</hasManifest>
+      <mainClass>com.jdevbook.chap7.CourseStudentPanel</mainClass>
+   </archiveOptions>
+   <cdaSettings>
+      <additionalArchives/>
+      <afterFilters/>
+      <beforeFilters/>
+      <duringFilters/>
+      <selectedArchives>
+         <archives>
+            <Item path="../../../../BC4J/lib/adfm.jar" jar-entry=""/>
+            <Item path="../../../../BC4J/jlib/bc4jui.jar" jar-entry=""/>
+            <Item path="../../../../BC4J/lib/bc4j_jclient_common.jar" jar-entry=""/>
+            <Item path="../../../../jlib/bigraphbean.jar" jar-entry=""/>
+            <Item path="../../../../jlib/LW_PfjBean.jar" jar-entry=""/>
+            <Item path="../../../../BC4J/lib/bc4jimdomains.jar" jar-entry=""/>
+            <Item path="../../../../BC4J/jlib/bc4jimjui.jar" jar-entry=""/>
+            <Item path="../../../../ord/jlib/ordim.jar" jar-entry=""/>
+            <Item path="../../../../ord/jlib/ordhttp.jar" jar-entry=""/>
+            <Item path="../../../../ord/jlib/jmf.jar" jar-entry=""/>
+            <Item path="../../../../jlib/share.jar" jar-entry=""/>
+            <Item path="../../../../jlib/jewt4.jar" jar-entry=""/>
+            <Item path="../../../../jlib/jewt4-nls.jar" jar-entry=""/>
+            <Item path="../../../../jlib/inspect4.jar" jar-entry=""/>
+            <Item path="../../../../jlib/inspect4-nls.jar" jar-entry=""/>
+            <Item path="../../../../jlib/help4.jar" jar-entry=""/>
+            <Item path="../../../../jlib/help4-nls.jar" jar-entry=""/>
+            <Item path="../../../../lib/xmlparserv2.jar" jar-entry=""/>
+            <Item path="../../../../lib/xmlcomp.jar" jar-entry=""/>
+            <Item path="../../../lib/jdev-rt.jar" jar-entry=""/>
+            <Item path="../../../../sqlj/lib/runtime12.jar" jar-entry=""/>
+            <Item path="../../../../BC4J/lib/bc4jmt.jar" jar-entry=""/>
+            <Item path="../../../../BC4J/lib/collections.jar" jar-entry=""/>
+            <Item path="../../../../BC4J/lib/bc4jct.jar" jar-entry=""/>
+            <Item path="../../../../lib/xmlparserv2.jar" jar-entry=""/>
+            <Item path="../../../../jlib/jdev-cm.jar" jar-entry=""/>
+            <Item path="../../../../j2ee/home/lib/jndi.jar" jar-entry=""/>
+            <Item path="../../../../jlib/ojmisc.jar" jar-entry=""/>
+            <Item path="../../../../jdbc/lib/classes12.jar" jar-entry=""/>
+            <Item path="../../../../jdbc/lib/nls_charset12.jar" jar-entry=""/>
+            <Item path="../../../../BC4J/lib/bc4jimdomains.jar" jar-entry=""/>
+            <Item path="../../../../ord/jlib/ordim.jar" jar-entry=""/>
+            <Item path="../../../../ord/jlib/ordhttp.jar" jar-entry=""/>
+            <Item path="../../../../jlib/jdev-cm.jar" jar-entry=""/>
+            <Item path="../../../../BC4J/lib/bc4jdomorcl.jar" jar-entry=""/>
+            <Item path="../../../../BC4J/jlib/bc4jdatum.jar" jar-entry=""/>
+            <Item path="../../../../BC4J/lib/adfm.jar" jar-entry=""/>
+            <Item path="../../../../BC4J/lib/collections.jar" jar-entry=""/>
+         </archives>
+         <selectionMode>0</selectionMode>
+      </selectedArchives>
+   </cdaSettings>
+   <jarURL path="deploy/archive1.jar"/>
+   <profileDeps/>
+   <selectedProjectFiles>
+      <autoInclude>true</autoInclude>
+      <deploySourceAs>0</deploySourceAs>
+      <files class="[Ljava.net.URL;"/>
+      <selectionFilters/>
+   </selectedProjectFiles>
+</simple-archive-deployment>

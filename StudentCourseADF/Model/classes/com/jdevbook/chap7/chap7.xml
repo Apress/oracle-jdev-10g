@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='windows-1252' ?>
+<!DOCTYPE JboPackage SYSTEM "jbo_03_01.dtd">
+
+<JboPackage
+   Name="chap7"
+   SeparateXMLFiles="true"
+   PackageName="com.jdevbook.chap7" >
+   <Data>
+      <Property Name ="NAMESPACE_REFERENCE" Value ="cfb60df9-00f7-1000-8007-7f000001585e::::BC4JPackage" />
+      <Property Name ="ID" Value ="cfb60df9-00f7-1000-8008-7f000001585e::com.jdevbook.chap7::BC4JPackage" />
+   </Data>
+   <DesignTime>
+      <Attr Name="_version" Value="9.0.5.13.52" />
+      <Attr Name="_ejbPackage" Value="false" />
+   </DesignTime>
+</JboPackage>

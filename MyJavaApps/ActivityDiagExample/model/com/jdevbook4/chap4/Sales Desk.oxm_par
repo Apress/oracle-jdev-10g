@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<?Oracle-JDeveloper Artifact = '1.0'?>
+<artifact xmlns="http://xmlns.oracle.com/jdeveloper/modeler/artifact" name="Sales Desk" type="Partition" cid="52c10ad6-00f7-1000-8006-7f000001e3aa::com.jdevbook4.chap4.Sales Desk::Partition">
+   <property xmlns="">
+      <cid name="NAMESPACE_REFERENCE" key="52c0f626-00f7-1000-8002-7f000001e3aa::com.jdevbook4.chap4::UMLPackage"/>
+      <null name="COMMENT"/>
+      <null name="PARTITION_REFERENCE"/>
+      <text name="WORKFLOW_ENABLED_FLAG">FALSE</text>
+   </property>
+   <backreference xmlns=""/>
+   <children xmlns=""/>
+</artifact>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<JboProject
+   id="DataBindings"
+   xmlns="http://xmlns.oracle.com/adfm"
+   SeparateXMLFiles="false"
+   Package=""
+   ClientType="JClient" >
+   <Contents >
+      <DataControl
+         id="com_jdevbook_chap7_model_AppModuleDataControl"
+         SupportsFindMode="true"
+         SupportsTransactions="true"
+         Package="com.jdevbook.chap7.model"
+         Configuration="AppModuleLocal"
+         FactoryClass="oracle.adf.model.bc4j.DataControlFactoryImpl" >
+      </DataControl>
+      <Containee
+         id="PanelCourseView1UIModel"
+         ObjectType="BindingContainerReference"
+         FullName="com.jdevbook.chap7.PanelCourseView1UIModel" >
+      </Containee>
+      <Containee
+         id="CourseStudentPanelUIModel"
+         ObjectType="BindingContainerReference"
+         FullName="com.jdevbook.chap7.CourseStudentPanelUIModel" >
+      </Containee>
+      <Containee
+         id="PanelStudentView2UIModel"
+         ObjectType="BindingContainerReference"
+         FullName="com.jdevbook.chap7.PanelStudentView2UIModel" >
+      </Containee>
+      <Containee
+         id="MDPanelCourseView1StudentView2UIModel"
+         ObjectType="BindingContainerReference"
+         FullName="com.jdevbook.chap7.MDPanelCourseView1StudentView2UIModel" >
+      </Containee>
+   </Contents>
+</JboProject>

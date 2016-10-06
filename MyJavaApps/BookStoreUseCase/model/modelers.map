@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'windows-1252'?>
+<ModelersMap class="java.util.HashMap">
+   <Item>
+      <Key>4e6942c0-00f7-1000-8005-7f000001a44e</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com</Item>
+         <Item/>
+         <Item>UMLPackage</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>4e6942cf-00f7-1000-8006-7f000001a44e</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook</Item>
+         <Item/>
+         <Item>UMLPackage</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>4e6942cf-00f7-1000-8007-7f000001a44e</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook.chap4</Item>
+         <Item/>
+         <Item>UMLPackage</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>4e694928-00f7-1000-8008-7f000001a44e</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook.chap4.BookStore System</Item>
+         <Item>oxd_usc</Item>
+         <Item>Diagram</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>4e773629-00f7-1000-8009-7f000001a44e</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook.chap4.Admin User</Item>
+         <Item/>
+         <Item>Actor</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>4e795dcc-00f7-1000-800a-7f000001a44e</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook.chap4.Reporting System</Item>
+         <Item/>
+         <Item>Actor</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>4e871b31-00f7-1000-800b-7f000001a44e</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook.chap4.Process Book Order</Item>
+         <Item/>
+         <Item>UseCase</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>4e876b54-00f7-1000-800c-7f000001a44e</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook.chap4.Check Book Availability</Item>
+         <Item/>
+         <Item>UseCase</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>4e87f8df-00f7-1000-800d-7f000001a44e</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook.chap4.Get Order Details</Item>
+         <Item/>
+         <Item>UseCase</Item>
+      </Value>
+   </Item>
+</ModelersMap>

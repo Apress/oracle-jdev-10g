@@ -1,0 +1,11 @@
+<?xml version = '1.0'?>
+<!DOCTYPE connections>
+<connections>
+   <connection>
+      <URL>jdbc:mysql://127.0.0.1:3306/test</URL>
+      <ConnectionName>MySQL</ConnectionName>
+      <user>test</user>
+      <ConnectionType>OTHER_JDBC</ConnectionType>
+      <JdbcDriver>com.mysql.jdbc.Driver</JdbcDriver>
+   </connection>
+</connections>

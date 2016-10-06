@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<?Oracle-JDeveloper Artifact = '1.0'?>
+<artifact xmlns="http://xmlns.oracle.com/jdeveloper/modeler/artifact" name="Accept Book" type="Activity" cid="52c287a3-00f7-1000-800d-7f000001e3aa::com.jdevbook4.chap4.Accept Book::Activity">
+   <property xmlns="">
+      <cid name="NAMESPACE_REFERENCE" key="52c0f626-00f7-1000-8002-7f000001e3aa::com.jdevbook4.chap4::UMLPackage"/>
+      <null name="COMMENT"/>
+      <cid name="CONTAINER_REFERENCE" key="52c0f6e1-00f7-1000-8004-7f000001e3aa::com.jdevbook4.chap4.top Book Order::Activity"/>
+      <cid name="PARTITION_REFERENCE" key="52c10568-00f7-1000-8005-7f000001e3aa::com.jdevbook4.chap4.Customer::Partition"/>
+      <null name="WORKFLOW_ITEM_TYPE_REFERENCE"/>
+      <null name="WORKFLOW_MESSAGE_TYPE_REFERENCE"/>
+      <null name="DIAGRAM_REFERENCE"/>
+      <null name="HUB_PARTITION_REFERENCE"/>
+      <null name="WORKFLOW_ROLE_REFERENCE"/>
+      <null name="EXECUTION_STRING"/>
+      <null name="DYNAMIC_ARGUMENTS"/>
+      <null name="DYNAMIC_MULTIPLICITY"/>
+      <text name="IS_DYNAMIC">FALSE</text>
+      <null name="WF_COST"/>
+      <text name="WF_ENABLED_FLAG">FALSE</text>
+      <text name="WF_RERUN_MODE">RESET</text>
+      <null name="WF_CUSTOM_LEVEL"/>
+      <null name="WF_PROTECT_LEVEL"/>
+      <text name="WF_TYPE">FUNCTION</text>
+      <null name="WF_ERROR_PROCESS"/>
+      <null name="WF_ERROR_ITEM_TYPE"/>
+      <text name="WF_EXPAND_ROLE_FLAG">FALSE</text>
+      <null name="WF_IMPLEMENTATION_NAME"/>
+   </property>
+   <backreference xmlns=""/>
+   <children xmlns=""/>
+</artifact>

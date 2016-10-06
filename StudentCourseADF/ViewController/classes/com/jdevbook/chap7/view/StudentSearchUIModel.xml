@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<DCContainer
+   id="StudentSearchUIModel"
+   xmlns="http://xmlns.oracle.com/adfm"
+   Package="com.jdevbook.chap7.view" >
+   <Contents >
+      <DCIterator
+         id="StudentView1Iterator"
+         Binds="com_jdevbook_chap7_model_AppModuleDataControl.StudentView1"
+         RangeSize="10" >
+      </DCIterator>
+      <DCControl
+         id="StudentView1"
+         SubType="DCHGrid"
+         IterBinding="StudentView1Iterator" >
+         <AttrNames>
+            <Item Value="StudentId" />
+            <Item Value="StudentName" />
+            <Item Value="CourseId" />
+         </AttrNames>
+      </DCControl>
+      <DCControl
+         id="StudentView11"
+         SubType="DCTable"
+         IterBinding="StudentView1Iterator" >
+         <AttrNames>
+            <Item Value="StudentId" />
+            <Item Value="StudentName" />
+            <Item Value="CourseId" />
+         </AttrNames>
+      </DCControl>
+      <DCControl
+         id="StudentId"
+         SubType="DCTextField"
+         IterBinding="StudentView1Iterator" >
+         <AttrNames>
+            <Item Value="StudentId" />
+         </AttrNames>
+      </DCControl>
+      <DCControl
+         id="StudentName"
+         SubType="DCTextField"
+         IterBinding="StudentView1Iterator" >
+         <AttrNames>
+            <Item Value="StudentName" />
+         </AttrNames>
+      </DCControl>
+      <DCControl
+         id="CourseId"
+         SubType="DCTextField"
+         IterBinding="StudentView1Iterator" >
+         <AttrNames>
+            <Item Value="CourseId" />
+         </AttrNames>
+      </DCControl>
+      <DCControl
+         id="Execute"
+         SubType="DCAction"
+         IterBinding="StudentView1Iterator"
+         Action="0"
+         ButtonText="Execute" >
+      </DCControl>
+      <DCControl
+         id="Create"
+         SubType="DCAction"
+         IterBinding="StudentView1Iterator"
+         Action="40"
+         ButtonText="Create" >
+      </DCControl>
+      <DCControl
+         id="Delete"
+         SubType="DCAction"
+         IterBinding="StudentView1Iterator"
+         Action="30"
+         ButtonText="Delete" >
+      </DCControl>
+      <DCControl
+         id="Find"
+         SubType="DCAction"
+         IterBinding="StudentView1Iterator"
+         Action="1"
+         ButtonText="Find" >
+      </DCControl>
+   </Contents>
+</DCContainer>

@@ -1,0 +1,27 @@
+<?xml version = '1.0' encoding = 'windows-1252'?>
+<!DOCTYPE ejb-jar PUBLIC "-//Sun Microsystems, Inc.//DTD Enterprise JavaBeans 2.0//EN" "http://java.sun.com/dtd/ejb-jar_2_0.dtd">
+<ejb-jar>
+  <enterprise-beans>
+    <session>
+      <description>Session Bean ( Stateless )</description>
+      <display-name>DateEJB</display-name>
+      <ejb-name>DateEJB</ejb-name>
+      <home>com.jdevbook.chap6.model.DateEJBHome</home>
+      <remote>com.jdevbook.chap6.model.DateEJB</remote>
+      <local-home>com.jdevbook.chap6.model.DateEJBLocalHome</local-home>
+      <local>com.jdevbook.chap6.model.DateEJBLocal</local>
+      <ejb-class>com.jdevbook.chap6.model.DateEJBBean</ejb-class>
+      <session-type>Stateless</session-type>
+      <transaction-type>Container</transaction-type>
+    </session>
+  </enterprise-beans>
+  <assembly-descriptor>
+    <container-transaction>
+      <method>
+        <ejb-name>DateEJB</ejb-name>
+        <method-name>*</method-name>
+      </method>
+      <trans-attribute>Required</trans-attribute>
+    </container-transaction>
+  </assembly-descriptor>
+</ejb-jar>

@@ -1,0 +1,243 @@
+<?xml version = '1.0' encoding = 'windows-1252'?>
+<ModelersMap class="java.util.HashMap">
+   <Item>
+      <Key>520f8d56-00f7-1000-8017-7f000001db24</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com</Item>
+         <Item/>
+         <Item>UMLPackage</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>520f8d66-00f7-1000-8018-7f000001db24</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook</Item>
+         <Item/>
+         <Item>UMLPackage</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>520f8d66-00f7-1000-8019-7f000001db24</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook.chap4</Item>
+         <Item/>
+         <Item>UMLPackage</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>520f8f1c-00f7-1000-801a-7f000001db24</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook.chap4.Book Order</Item>
+         <Item>oxd_oam</Item>
+         <Item>Diagram</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>520f8f2b-00f7-1000-801b-7f000001db24</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook.chap4.top Book Order</Item>
+         <Item/>
+         <Item>Activity</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>520fd378-00f7-1000-801c-7f000001db24</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook.chap4.Swimlane1</Item>
+         <Item/>
+         <Item>Partition</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>520fd9c1-00f7-1000-801d-7f000001db24</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook.chap4.Sales Desk</Item>
+         <Item/>
+         <Item>Partition</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>520fe058-00f7-1000-801e-7f000001db24</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook.chap4.Stores</Item>
+         <Item/>
+         <Item>Partition</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>52128f5b-00f7-1000-8020-7f000001db24</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook.chap4.Activity1</Item>
+         <Item/>
+         <Item>Activity</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>5216c944-00f7-1000-8025-7f000001db24</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook.chap4.Request for Book</Item>
+         <Item/>
+         <Item>Activity</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>521a1c09-00f7-1000-8026-7f000001db24</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook.chap4.Pay for Book</Item>
+         <Item/>
+         <Item>Activity</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>521c2aa6-00f7-1000-8028-7f000001db24</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook.chap4.Accept Book</Item>
+         <Item/>
+         <Item>Activity</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>521c9e3f-00f7-1000-8029-7f000001db24</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook.chap4.Accept Request</Item>
+         <Item/>
+         <Item>Activity</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>521cdeb3-00f7-1000-802a-7f000001db24</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook.chap4.Get Book</Item>
+         <Item/>
+         <Item>Activity</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>521cfb15-00f7-1000-802b-7f000001db24</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook.chap4.Enter Order</Item>
+         <Item/>
+         <Item>Activity</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>521d10c0-00f7-1000-802c-7f000001db24</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook.chap4.Reject Order</Item>
+         <Item/>
+         <Item>Activity</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>52c0f2e9-00f7-1000-8001-7f000001e3aa</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook4</Item>
+         <Item/>
+         <Item>UMLPackage</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>52c0f626-00f7-1000-8002-7f000001e3aa</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook4.chap4</Item>
+         <Item/>
+         <Item>UMLPackage</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>52c0f6b2-00f7-1000-8003-7f000001e3aa</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook4.chap4.Book Order</Item>
+         <Item>oxd_oam</Item>
+         <Item>Diagram</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>52c0f6e1-00f7-1000-8004-7f000001e3aa</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook4.chap4.top Book Order</Item>
+         <Item/>
+         <Item>Activity</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>52c10568-00f7-1000-8005-7f000001e3aa</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook4.chap4.Customer</Item>
+         <Item/>
+         <Item>Partition</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>52c10ad6-00f7-1000-8006-7f000001e3aa</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook4.chap4.Sales Desk</Item>
+         <Item/>
+         <Item>Partition</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>52c11101-00f7-1000-8007-7f000001e3aa</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook4.chap4.Stores</Item>
+         <Item/>
+         <Item>Partition</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>52c1c8c7-00f7-1000-8009-7f000001e3aa</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook4.chap4.Request for Book</Item>
+         <Item/>
+         <Item>Activity</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>52c2385a-00f7-1000-800b-7f000001e3aa</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook4.chap4.Accept Request</Item>
+         <Item/>
+         <Item>Activity</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>52c27ab2-00f7-1000-800c-7f000001e3aa</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook4.chap4.Pay for Book</Item>
+         <Item/>
+         <Item>Activity</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>52c287a3-00f7-1000-800d-7f000001e3aa</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook4.chap4.Accept Book</Item>
+         <Item/>
+         <Item>Activity</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>52c3c563-00f7-1000-800f-7f000001e3aa</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook4.chap4.Enter Order</Item>
+         <Item/>
+         <Item>Activity</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>52c4e8c4-00f7-1000-8015-7f000001e3aa</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook4.chap4.Reject Order</Item>
+         <Item/>
+         <Item>Activity</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>52c7273b-00f7-1000-801b-7f000001e3aa</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook4.chap4.Get Book</Item>
+         <Item/>
+         <Item>Activity</Item>
+      </Value>
+   </Item>
+</ModelersMap>

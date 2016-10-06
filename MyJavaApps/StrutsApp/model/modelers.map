@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'windows-1252'?>
+<ModelersMap class="java.util.HashMap">
+   <Item>
+      <Key>5e658596-00f7-1000-8001-7f000001b7ff</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>StrutsPageFlow</Item>
+         <Item>sfm</Item>
+         <Item>Diagram</Item>
+      </Value>
+   </Item>
+</ModelersMap>

@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'windows-1252'?>
+<!DOCTYPE orion-ejb-jar PUBLIC "-//Evermind//DTD Enterprise JavaBeans 1.1 runtime//EN" "http://xmlns.oracle.com/ias/dtds/orion-ejb-jar.dtd">
+<orion-ejb-jar>
+  <enterprise-beans>
+    <session-deployment name="StudentCourseEJB"/>
+    <entity-deployment name="Course" data-source="jdbc/OracleDBConnDS" table="SCOTT.COURSE">
+      <primkey-mapping>
+        <cmp-field-mapping name="courseId" persistence-name="COURSE_ID" persistence-type="NUMBER(5)"/>
+      </primkey-mapping>
+      <cmp-field-mapping name="courseId" persistence-name="COURSE_ID" persistence-type="NUMBER(5)"/>
+      <cmp-field-mapping name="courseName" persistence-name="COURSE_NAME" persistence-type="VARCHAR2(30)"/>
+      <cmp-field-mapping name="student_courseId">
+        <collection-mapping table="STUDENT">
+          <primkey-mapping>
+            <cmp-field-mapping>
+              <entity-ref home="Course">
+                <cmp-field-mapping persistence-name="COURSE_ID" persistence-type="NUMBER(5)"/>
+              </entity-ref>
+            </cmp-field-mapping>
+          </primkey-mapping>
+          <value-mapping type="com.jdevbook.chap6.ejbapp.StudentLocal">
+            <cmp-field-mapping>
+              <entity-ref home="Student">
+                <cmp-field-mapping persistence-name="STUDENT_ID" persistence-type="NUMBER(5)"/>
+              </entity-ref>
+            </cmp-field-mapping>
+          </value-mapping>
+        </collection-mapping>
+      </cmp-field-mapping>
+    </entity-deployment>
+    <entity-deployment name="Student" data-source="jdbc/OracleDBConnDS" table="SCOTT.STUDENT">
+      <primkey-mapping>
+        <cmp-field-mapping name="studentId" persistence-name="STUDENT_ID" persistence-type="NUMBER(5)"/>
+      </primkey-mapping>
+      <cmp-field-mapping name="studentId" persistence-name="STUDENT_ID" persistence-type="NUMBER(5)"/>
+      <cmp-field-mapping name="studentName" persistence-name="STUDENT_NAME" persistence-type="VARCHAR2(30)"/>
+      <cmp-field-mapping name="course_courseId" persistence-name="COURSE_ID">
+        <entity-ref home="Course">
+          <cmp-field-mapping persistence-name="COURSE_ID" persistence-type="NUMBER(5)"/>
+        </entity-ref>
+      </cmp-field-mapping>
+    </entity-deployment>
+  </enterprise-beans>
+</orion-ejb-jar>

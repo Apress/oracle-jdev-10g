@@ -1,0 +1,323 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<?Oracle-JDeveloper Artifact = '1.0'?>
+<artifact xmlns="http://xmlns.oracle.com/jdeveloper/modeler/artifact" name="top Book Order" type="Activity" cid="52c0f6e1-00f7-1000-8004-7f000001e3aa::com.jdevbook4.chap4.top Book Order::Activity">
+   <property xmlns="">
+      <cid name="NAMESPACE_REFERENCE" key="52c0f626-00f7-1000-8002-7f000001e3aa::com.jdevbook4.chap4::UMLPackage"/>
+      <null name="COMMENT"/>
+      <null name="CONTAINER_REFERENCE"/>
+      <null name="PARTITION_REFERENCE"/>
+      <null name="WORKFLOW_ITEM_TYPE_REFERENCE"/>
+      <null name="WORKFLOW_MESSAGE_TYPE_REFERENCE"/>
+      <cid name="DIAGRAM_REFERENCE" key="52c0f6b2-00f7-1000-8003-7f000001e3aa::com.jdevbook4.chap4.Book Order::Diagram"/>
+      <null name="HUB_PARTITION_REFERENCE"/>
+      <null name="WORKFLOW_ROLE_REFERENCE"/>
+      <null name="EXECUTION_STRING"/>
+      <null name="DYNAMIC_ARGUMENTS"/>
+      <null name="DYNAMIC_MULTIPLICITY"/>
+      <text name="IS_DYNAMIC">FALSE</text>
+      <null name="WF_COST"/>
+      <text name="WF_ENABLED_FLAG">FALSE</text>
+      <text name="WF_RERUN_MODE">RESET</text>
+      <null name="WF_CUSTOM_LEVEL"/>
+      <null name="WF_PROTECT_LEVEL"/>
+      <text name="WF_TYPE">FUNCTION</text>
+      <null name="WF_ERROR_PROCESS"/>
+      <null name="WF_ERROR_ITEM_TYPE"/>
+      <text name="WF_EXPAND_ROLE_FLAG">FALSE</text>
+      <null name="WF_IMPLEMENTATION_NAME"/>
+   </property>
+   <backreference xmlns=""/>
+   <children xmlns="">
+      <child type="Pseudostate" reference="OWNER_REFERENCE">
+         <artifact name="" type="Pseudostate" cid="52c19c2a-00f7-1000-8008-7f000001e3aa::com.jdevbook4.chap4.top Book Order::Pseudostate">
+            <property>
+               <null name="NAMESPACE_REFERENCE"/>
+               <null name="COMMENT"/>
+               <cid name="CONTAINER_REFERENCE" key="52c0f6e1-00f7-1000-8004-7f000001e3aa::com.jdevbook4.chap4.top Book Order::Activity"/>
+               <text name="TYPE">INITIAL</text>
+               <number name="SEQUENCE_NUMBER" value="1"/>
+            </property>
+            <backreference/>
+            <children/>
+         </artifact>
+         <artifact name="" type="Pseudostate" cid="52c3b14e-00f7-1000-800e-7f000001e3aa::com.jdevbook4.chap4.top Book Order::Pseudostate">
+            <property>
+               <null name="NAMESPACE_REFERENCE"/>
+               <null name="COMMENT"/>
+               <cid name="CONTAINER_REFERENCE" key="52c0f6e1-00f7-1000-8004-7f000001e3aa::com.jdevbook4.chap4.top Book Order::Activity"/>
+               <text name="TYPE">AND</text>
+               <number name="SEQUENCE_NUMBER" value="2"/>
+            </property>
+            <backreference/>
+            <children/>
+         </artifact>
+         <artifact name="" type="Pseudostate" cid="52c56bcf-00f7-1000-8016-7f000001e3aa::com.jdevbook4.chap4.top Book Order::Pseudostate">
+            <property>
+               <null name="NAMESPACE_REFERENCE"/>
+               <null name="COMMENT"/>
+               <cid name="CONTAINER_REFERENCE" key="52c0f6e1-00f7-1000-8004-7f000001e3aa::com.jdevbook4.chap4.top Book Order::Activity"/>
+               <text name="TYPE">AND</text>
+               <number name="SEQUENCE_NUMBER" value="3"/>
+            </property>
+            <backreference/>
+            <children/>
+         </artifact>
+         <artifact name="Availability" type="Pseudostate" cid="52c7757a-00f7-1000-801d-7f000001e3aa::com.jdevbook4.chap4.top Book Order::Pseudostate">
+            <property>
+               <null name="NAMESPACE_REFERENCE"/>
+               <null name="COMMENT"/>
+               <cid name="CONTAINER_REFERENCE" key="52c0f6e1-00f7-1000-8004-7f000001e3aa::com.jdevbook4.chap4.top Book Order::Activity"/>
+               <text name="TYPE">OR</text>
+               <number name="SEQUENCE_NUMBER" value="4"/>
+            </property>
+            <backreference/>
+            <children/>
+         </artifact>
+         <artifact name="" type="Pseudostate" cid="52c923d6-00f7-1000-8021-7f000001e3aa::com.jdevbook4.chap4.top Book Order::Pseudostate">
+            <property>
+               <null name="NAMESPACE_REFERENCE"/>
+               <null name="COMMENT"/>
+               <cid name="CONTAINER_REFERENCE" key="52c0f6e1-00f7-1000-8004-7f000001e3aa::com.jdevbook4.chap4.top Book Order::Activity"/>
+               <text name="TYPE">FINAL</text>
+               <number name="SEQUENCE_NUMBER" value="5"/>
+            </property>
+            <backreference/>
+            <children/>
+         </artifact>
+         <artifact name="" type="Pseudostate" cid="52c92bc5-00f7-1000-8022-7f000001e3aa::com.jdevbook4.chap4.top Book Order::Pseudostate">
+            <property>
+               <null name="NAMESPACE_REFERENCE"/>
+               <null name="COMMENT"/>
+               <cid name="CONTAINER_REFERENCE" key="52c0f6e1-00f7-1000-8004-7f000001e3aa::com.jdevbook4.chap4.top Book Order::Activity"/>
+               <text name="TYPE">FINAL</text>
+               <number name="SEQUENCE_NUMBER" value="6"/>
+            </property>
+            <backreference/>
+            <children/>
+         </artifact>
+      </child>
+      <child type="Transition" reference="CONTAINER_REFERENCE">
+         <artifact name="" type="Transition" cid="52c21bc9-00f7-1000-800a-7f000001e3aa::com.jdevbook4.chap4.top Book Order::Transition">
+            <property>
+               <null name="NAMESPACE_REFERENCE"/>
+               <null name="COMMENT"/>
+               <null name="CHANNEL_REFERENCE"/>
+               <null name="TRIGGER_EVENT_REFERENCE"/>
+               <cid name="SOURCE_TYPE_REFERENCE" key="52c19c2a-00f7-1000-8008-7f000001e3aa::com.jdevbook4.chap4.top Book Order::Pseudostate"/>
+               <cid name="TARGET_TYPE_REFERENCE" key="52c1c8c7-00f7-1000-8009-7f000001e3aa::com.jdevbook4.chap4.Request for Book::Activity"/>
+               <number name="SEQUENCE_NUMBER" value="1"/>
+               <text name="BROADCAST_FLAG">TRUE</text>
+               <null name="GUARD_CONDITION"/>
+               <null name="CODE_FRAGMENT"/>
+               <null name="INSTANCE_SELECTOR"/>
+            </property>
+            <backreference/>
+            <children/>
+         </artifact>
+         <artifact name="" type="Transition" cid="52c493de-00f7-1000-8012-7f000001e3aa::com.jdevbook4.chap4.top Book Order::Transition">
+            <property>
+               <null name="NAMESPACE_REFERENCE"/>
+               <null name="COMMENT"/>
+               <null name="CHANNEL_REFERENCE"/>
+               <null name="TRIGGER_EVENT_REFERENCE"/>
+               <cid name="SOURCE_TYPE_REFERENCE" key="52c27ab2-00f7-1000-800c-7f000001e3aa::com.jdevbook4.chap4.Pay for Book::Activity"/>
+               <cid name="TARGET_TYPE_REFERENCE" key="52c3b14e-00f7-1000-800e-7f000001e3aa::com.jdevbook4.chap4.top Book Order::Pseudostate"/>
+               <number name="SEQUENCE_NUMBER" value="2"/>
+               <text name="BROADCAST_FLAG">TRUE</text>
+               <null name="GUARD_CONDITION"/>
+               <null name="CODE_FRAGMENT"/>
+               <null name="INSTANCE_SELECTOR"/>
+            </property>
+            <backreference/>
+            <children/>
+         </artifact>
+         <artifact name="" type="Transition" cid="52c4ae4c-00f7-1000-8013-7f000001e3aa::com.jdevbook4.chap4.top Book Order::Transition">
+            <property>
+               <null name="NAMESPACE_REFERENCE"/>
+               <null name="COMMENT"/>
+               <null name="CHANNEL_REFERENCE"/>
+               <null name="TRIGGER_EVENT_REFERENCE"/>
+               <cid name="SOURCE_TYPE_REFERENCE" key="52c3b14e-00f7-1000-800e-7f000001e3aa::com.jdevbook4.chap4.top Book Order::Pseudostate"/>
+               <cid name="TARGET_TYPE_REFERENCE" key="52c287a3-00f7-1000-800d-7f000001e3aa::com.jdevbook4.chap4.Accept Book::Activity"/>
+               <number name="SEQUENCE_NUMBER" value="3"/>
+               <text name="BROADCAST_FLAG">TRUE</text>
+               <null name="GUARD_CONDITION"/>
+               <null name="CODE_FRAGMENT"/>
+               <null name="INSTANCE_SELECTOR"/>
+            </property>
+            <backreference/>
+            <children/>
+         </artifact>
+         <artifact name="" type="Transition" cid="52c4c32b-00f7-1000-8014-7f000001e3aa::com.jdevbook4.chap4.top Book Order::Transition">
+            <property>
+               <null name="NAMESPACE_REFERENCE"/>
+               <null name="COMMENT"/>
+               <null name="CHANNEL_REFERENCE"/>
+               <null name="TRIGGER_EVENT_REFERENCE"/>
+               <cid name="SOURCE_TYPE_REFERENCE" key="52c3b14e-00f7-1000-800e-7f000001e3aa::com.jdevbook4.chap4.top Book Order::Pseudostate"/>
+               <cid name="TARGET_TYPE_REFERENCE" key="52c3c563-00f7-1000-800f-7f000001e3aa::com.jdevbook4.chap4.Enter Order::Activity"/>
+               <number name="SEQUENCE_NUMBER" value="4"/>
+               <text name="BROADCAST_FLAG">TRUE</text>
+               <null name="GUARD_CONDITION"/>
+               <null name="CODE_FRAGMENT"/>
+               <null name="INSTANCE_SELECTOR"/>
+            </property>
+            <backreference/>
+            <children/>
+         </artifact>
+         <artifact name="" type="Transition" cid="52c5bcae-00f7-1000-8018-7f000001e3aa::com.jdevbook4.chap4.top Book Order::Transition">
+            <property>
+               <null name="NAMESPACE_REFERENCE"/>
+               <null name="COMMENT"/>
+               <null name="CHANNEL_REFERENCE"/>
+               <null name="TRIGGER_EVENT_REFERENCE"/>
+               <cid name="SOURCE_TYPE_REFERENCE" key="52c3c563-00f7-1000-800f-7f000001e3aa::com.jdevbook4.chap4.Enter Order::Activity"/>
+               <cid name="TARGET_TYPE_REFERENCE" key="52c56bcf-00f7-1000-8016-7f000001e3aa::com.jdevbook4.chap4.top Book Order::Pseudostate"/>
+               <number name="SEQUENCE_NUMBER" value="6"/>
+               <text name="BROADCAST_FLAG">TRUE</text>
+               <null name="GUARD_CONDITION"/>
+               <null name="CODE_FRAGMENT"/>
+               <null name="INSTANCE_SELECTOR"/>
+            </property>
+            <backreference/>
+            <children/>
+         </artifact>
+         <artifact name="" type="Transition" cid="52c5e18c-00f7-1000-8019-7f000001e3aa::com.jdevbook4.chap4.top Book Order::Transition">
+            <property>
+               <null name="NAMESPACE_REFERENCE"/>
+               <null name="COMMENT"/>
+               <null name="CHANNEL_REFERENCE"/>
+               <null name="TRIGGER_EVENT_REFERENCE"/>
+               <cid name="SOURCE_TYPE_REFERENCE" key="52c287a3-00f7-1000-800d-7f000001e3aa::com.jdevbook4.chap4.Accept Book::Activity"/>
+               <cid name="TARGET_TYPE_REFERENCE" key="52c56bcf-00f7-1000-8016-7f000001e3aa::com.jdevbook4.chap4.top Book Order::Pseudostate"/>
+               <number name="SEQUENCE_NUMBER" value="5"/>
+               <text name="BROADCAST_FLAG">TRUE</text>
+               <null name="GUARD_CONDITION"/>
+               <null name="CODE_FRAGMENT"/>
+               <null name="INSTANCE_SELECTOR"/>
+            </property>
+            <backreference/>
+            <children/>
+         </artifact>
+         <artifact name="" type="Transition" cid="52c6cd34-00f7-1000-801a-7f000001e3aa::com.jdevbook4.chap4.top Book Order::Transition">
+            <property>
+               <null name="NAMESPACE_REFERENCE"/>
+               <null name="COMMENT"/>
+               <null name="CHANNEL_REFERENCE"/>
+               <null name="TRIGGER_EVENT_REFERENCE"/>
+               <cid name="SOURCE_TYPE_REFERENCE" key="52c1c8c7-00f7-1000-8009-7f000001e3aa::com.jdevbook4.chap4.Request for Book::Activity"/>
+               <cid name="TARGET_TYPE_REFERENCE" key="52c2385a-00f7-1000-800b-7f000001e3aa::com.jdevbook4.chap4.Accept Request::Activity"/>
+               <number name="SEQUENCE_NUMBER" value="7"/>
+               <text name="BROADCAST_FLAG">TRUE</text>
+               <null name="GUARD_CONDITION"/>
+               <null name="CODE_FRAGMENT"/>
+               <null name="INSTANCE_SELECTOR"/>
+            </property>
+            <backreference/>
+            <children/>
+         </artifact>
+         <artifact name="" type="Transition" cid="52c75e87-00f7-1000-801c-7f000001e3aa::com.jdevbook4.chap4.top Book Order::Transition">
+            <property>
+               <null name="NAMESPACE_REFERENCE"/>
+               <null name="COMMENT"/>
+               <null name="CHANNEL_REFERENCE"/>
+               <null name="TRIGGER_EVENT_REFERENCE"/>
+               <cid name="SOURCE_TYPE_REFERENCE" key="52c2385a-00f7-1000-800b-7f000001e3aa::com.jdevbook4.chap4.Accept Request::Activity"/>
+               <cid name="TARGET_TYPE_REFERENCE" key="52c7273b-00f7-1000-801b-7f000001e3aa::com.jdevbook4.chap4.Get Book::Activity"/>
+               <number name="SEQUENCE_NUMBER" value="8"/>
+               <text name="BROADCAST_FLAG">TRUE</text>
+               <null name="GUARD_CONDITION"/>
+               <null name="CODE_FRAGMENT"/>
+               <null name="INSTANCE_SELECTOR"/>
+            </property>
+            <backreference/>
+            <children/>
+         </artifact>
+         <artifact name="" type="Transition" cid="52c7a1ba-00f7-1000-801e-7f000001e3aa::com.jdevbook4.chap4.top Book Order::Transition">
+            <property>
+               <null name="NAMESPACE_REFERENCE"/>
+               <null name="COMMENT"/>
+               <null name="CHANNEL_REFERENCE"/>
+               <null name="TRIGGER_EVENT_REFERENCE"/>
+               <cid name="SOURCE_TYPE_REFERENCE" key="52c7273b-00f7-1000-801b-7f000001e3aa::com.jdevbook4.chap4.Get Book::Activity"/>
+               <cid name="TARGET_TYPE_REFERENCE" key="52c7757a-00f7-1000-801d-7f000001e3aa::com.jdevbook4.chap4.top Book Order::Pseudostate"/>
+               <number name="SEQUENCE_NUMBER" value="9"/>
+               <text name="BROADCAST_FLAG">TRUE</text>
+               <null name="GUARD_CONDITION"/>
+               <null name="CODE_FRAGMENT"/>
+               <null name="INSTANCE_SELECTOR"/>
+            </property>
+            <backreference/>
+            <children/>
+         </artifact>
+         <artifact name="" type="Transition" cid="52c7e0d6-00f7-1000-801f-7f000001e3aa::com.jdevbook4.chap4.top Book Order::Transition">
+            <property>
+               <null name="NAMESPACE_REFERENCE"/>
+               <null name="COMMENT"/>
+               <null name="CHANNEL_REFERENCE"/>
+               <null name="TRIGGER_EVENT_REFERENCE"/>
+               <cid name="SOURCE_TYPE_REFERENCE" key="52c7757a-00f7-1000-801d-7f000001e3aa::com.jdevbook4.chap4.top Book Order::Pseudostate"/>
+               <cid name="TARGET_TYPE_REFERENCE" key="52c27ab2-00f7-1000-800c-7f000001e3aa::com.jdevbook4.chap4.Pay for Book::Activity"/>
+               <number name="SEQUENCE_NUMBER" value="10"/>
+               <text name="BROADCAST_FLAG">TRUE</text>
+               <text name="GUARD_CONDITION">Yes</text>
+               <null name="CODE_FRAGMENT"/>
+               <null name="INSTANCE_SELECTOR"/>
+            </property>
+            <backreference/>
+            <children/>
+         </artifact>
+         <artifact name="" type="Transition" cid="52c7ed2b-00f7-1000-8020-7f000001e3aa::com.jdevbook4.chap4.top Book Order::Transition">
+            <property>
+               <null name="NAMESPACE_REFERENCE"/>
+               <null name="COMMENT"/>
+               <null name="CHANNEL_REFERENCE"/>
+               <null name="TRIGGER_EVENT_REFERENCE"/>
+               <cid name="SOURCE_TYPE_REFERENCE" key="52c7757a-00f7-1000-801d-7f000001e3aa::com.jdevbook4.chap4.top Book Order::Pseudostate"/>
+               <cid name="TARGET_TYPE_REFERENCE" key="52c4e8c4-00f7-1000-8015-7f000001e3aa::com.jdevbook4.chap4.Reject Order::Activity"/>
+               <number name="SEQUENCE_NUMBER" value="11"/>
+               <text name="BROADCAST_FLAG">TRUE</text>
+               <text name="GUARD_CONDITION">No</text>
+               <null name="CODE_FRAGMENT"/>
+               <null name="INSTANCE_SELECTOR"/>
+            </property>
+            <backreference/>
+            <children/>
+         </artifact>
+         <artifact name="" type="Transition" cid="52c96062-00f7-1000-8023-7f000001e3aa::com.jdevbook4.chap4.top Book Order::Transition">
+            <property>
+               <null name="NAMESPACE_REFERENCE"/>
+               <null name="COMMENT"/>
+               <null name="CHANNEL_REFERENCE"/>
+               <null name="TRIGGER_EVENT_REFERENCE"/>
+               <cid name="SOURCE_TYPE_REFERENCE" key="52c56bcf-00f7-1000-8016-7f000001e3aa::com.jdevbook4.chap4.top Book Order::Pseudostate"/>
+               <cid name="TARGET_TYPE_REFERENCE" key="52c92bc5-00f7-1000-8022-7f000001e3aa::com.jdevbook4.chap4.top Book Order::Pseudostate"/>
+               <number name="SEQUENCE_NUMBER" value="12"/>
+               <text name="BROADCAST_FLAG">TRUE</text>
+               <null name="GUARD_CONDITION"/>
+               <null name="CODE_FRAGMENT"/>
+               <null name="INSTANCE_SELECTOR"/>
+            </property>
+            <backreference/>
+            <children/>
+         </artifact>
+         <artifact name="" type="Transition" cid="52c96c97-00f7-1000-8024-7f000001e3aa::com.jdevbook4.chap4.top Book Order::Transition">
+            <property>
+               <null name="NAMESPACE_REFERENCE"/>
+               <null name="COMMENT"/>
+               <null name="CHANNEL_REFERENCE"/>
+               <null name="TRIGGER_EVENT_REFERENCE"/>
+               <cid name="SOURCE_TYPE_REFERENCE" key="52c4e8c4-00f7-1000-8015-7f000001e3aa::com.jdevbook4.chap4.Reject Order::Activity"/>
+               <cid name="TARGET_TYPE_REFERENCE" key="52c923d6-00f7-1000-8021-7f000001e3aa::com.jdevbook4.chap4.top Book Order::Pseudostate"/>
+               <number name="SEQUENCE_NUMBER" value="13"/>
+               <text name="BROADCAST_FLAG">TRUE</text>
+               <null name="GUARD_CONDITION"/>
+               <null name="CODE_FRAGMENT"/>
+               <null name="INSTANCE_SELECTOR"/>
+            </property>
+            <backreference/>
+            <children/>
+         </artifact>
+      </child>
+   </children>
+</artifact>

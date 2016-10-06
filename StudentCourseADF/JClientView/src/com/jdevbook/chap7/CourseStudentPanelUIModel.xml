@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<DCContainer
+   id="CourseStudentPanelUIModel"
+   xmlns="http://xmlns.oracle.com/adfm"
+   Package="com.jdevbook.chap7" >
+   <Contents >
+      <DCIterator
+         id="CourseView1Iterator"
+         Binds="com_jdevbook_chap7_model_AppModuleDataControl.CourseView1" >
+      </DCIterator>
+      <DCIterator
+         id="StudentView2Iterator"
+         Binds="com_jdevbook_chap7_model_AppModuleDataControl.StudentView2" >
+      </DCIterator>
+      <DCControl
+         id="CourseView1"
+         DefClass="oracle.jbo.uicli.jui.JUTableDef"
+         SubType="DCTable"
+         IterBinding="CourseView1Iterator" >
+         <AttrNames>
+            <Item Value="CourseId" />
+            <Item Value="CourseName" />
+         </AttrNames>
+      </DCControl>
+      <DCControl
+         id="StudentView2"
+         DefClass="oracle.jbo.uicli.jui.JUTableDef"
+         SubType="DCTable"
+         IterBinding="StudentView2Iterator" >
+         <AttrNames>
+            <Item Value="StudentId" />
+            <Item Value="StudentName" />
+            <Item Value="CourseId" />
+         </AttrNames>
+      </DCControl>
+      <DCControl
+         id="First"
+         DefClass="oracle.jbo.uicli.jui.JUActionDef"
+         SubType="DCAction"
+         IterBinding="CourseView1Iterator"
+         Action="12"
+         Text="First" >
+      </DCControl>
+      <DCControl
+         id="Next"
+         DefClass="oracle.jbo.uicli.jui.JUActionDef"
+         SubType="DCAction"
+         IterBinding="CourseView1Iterator"
+         Action="10"
+         Text="Next" >
+      </DCControl>
+      <DCControl
+         id="Previous"
+         DefClass="oracle.jbo.uicli.jui.JUActionDef"
+         SubType="DCAction"
+         IterBinding="CourseView1Iterator"
+         Action="11"
+         Text="Previous" >
+      </DCControl>
+      <DCControl
+         id="Last"
+         DefClass="oracle.jbo.uicli.jui.JUActionDef"
+         SubType="DCAction"
+         IterBinding="CourseView1Iterator"
+         Action="13"
+         Text="Last" >
+      </DCControl>
+   </Contents>
+</DCContainer>

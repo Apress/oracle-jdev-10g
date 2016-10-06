@@ -1,0 +1,22 @@
+<?xml version = '1.0'?>
+<!DOCTYPE connections>
+<connections>
+   <connection>
+      <JDBC_PORT>1521</JDBC_PORT>
+      <ConnectionType>JDBC</ConnectionType>
+      <HOSTNAME>localhost</HOSTNAME>
+      <DeployPassword>true</DeployPassword>
+      <user>scott</user>
+      <ConnectionName>OracleDBConn</ConnectionName>
+      <SID>testnew</SID>
+      <password>tiger</password>
+      <JdbcDriver>oracle.jdbc.driver.OracleDriver</JdbcDriver>
+      <ORACLE_JDBC_TYPE>thin</ORACLE_JDBC_TYPE>
+   </connection>
+   <connection>
+      <ConnectionName>MySQLConn</ConnectionName>
+      <URL>jdbc:mysql://127.0.0.1:3306/test</URL>
+      <ConnectionType>OTHER_JDBC</ConnectionType>
+      <JdbcDriver>com.mysql.jdbc.Driver</JdbcDriver>
+   </connection>
+</connections>

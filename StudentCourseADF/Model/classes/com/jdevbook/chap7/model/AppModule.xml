@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='windows-1252' ?>
+<!DOCTYPE AppModule SYSTEM "jbo_03_01.dtd">
+
+<AppModule
+   Name="AppModule"
+   ComponentClass="com.jdevbook.chap7.model.AppModuleImpl" >
+   <Data>
+      <Property Name ="IS_ABSTRACT" Value ="FALSE" />
+      <Property Name ="COMPLETE_LIBRARY" Value ="FALSE" />
+      <Property Name ="IS_LEAF" Value ="FALSE" />
+      <Property Name ="IS_ROOT" Value ="TRUE" />
+      <Property Name ="ID" Value ="d2afb167-00f7-1000-800f-7f000001fa90::com.jdevbook.chap7.model.AppModule::ApplicationModule" />
+      <Property Name ="VISIBILITY" Value ="PUBLIC" />
+      <Property Name ="IS_ACTIVE" Value ="FALSE" />
+   </Data>
+   <DesignTime>
+      <Attr Name="_isCodegen" Value="true" />
+      <Attr Name="_version" Value="9.0.5.13.52" />
+      <Attr Name="_deployType" Value="0" />
+      <Attr Name="_ejbAppModule" Value="false" />
+   </DesignTime>
+   <ViewUsage
+      Name="StudentView1"
+      ViewObjectName="com.jdevbook.chap7.model.StudentView" >
+      <Data>
+         <Property Name ="IS_ABSTRACT" Value ="FALSE" />
+         <Property Name ="COMPLETE_LIBRARY" Value ="FALSE" />
+         <Property Name ="IS_LEAF" Value ="FALSE" />
+         <Property Name ="IS_ROOT" Value ="TRUE" />
+         <Property Name ="ID" Value ="d2afb177-00f7-1000-8010-7f000001fa90::com.jdevbook.chap7.model.AppModule$StudentView1::ViewObjectInstance" />
+         <Property Name ="VISIBILITY" Value ="PUBLIC" />
+         <Property Name ="IS_ACTIVE" Value ="FALSE" />
+      </Data>
+   </ViewUsage>
+   <ViewUsage
+      Name="CourseView1"
+      ViewObjectName="com.jdevbook.chap7.model.CourseView" >
+      <Data>
+         <Property Name ="IS_ABSTRACT" Value ="FALSE" />
+         <Property Name ="COMPLETE_LIBRARY" Value ="FALSE" />
+         <Property Name ="IS_LEAF" Value ="FALSE" />
+         <Property Name ="IS_ROOT" Value ="TRUE" />
+         <Property Name ="ID" Value ="d2afb186-00f7-1000-8011-7f000001fa90::com.jdevbook.chap7.model.AppModule$CourseView1::ViewObjectInstance" />
+         <Property Name ="VISIBILITY" Value ="PUBLIC" />
+         <Property Name ="IS_ACTIVE" Value ="FALSE" />
+      </Data>
+   </ViewUsage>
+   <ViewUsage
+      Name="StudentView2"
+      ViewObjectName="com.jdevbook.chap7.model.StudentView" >
+      <Data>
+         <Property Name ="IS_ABSTRACT" Value ="FALSE" />
+         <Property Name ="COMPLETE_LIBRARY" Value ="FALSE" />
+         <Property Name ="IS_LEAF" Value ="FALSE" />
+         <Property Name ="IS_ROOT" Value ="TRUE" />
+         <Property Name ="ID" Value ="d2afb196-00f7-1000-8012-7f000001fa90::com.jdevbook.chap7.model.AppModule$StudentView2::ViewObjectInstance" />
+         <Property Name ="VISIBILITY" Value ="PUBLIC" />
+         <Property Name ="IS_ACTIVE" Value ="FALSE" />
+      </Data>
+   </ViewUsage>
+   <ViewUsage
+      Name="JavaCourseView1"
+      ViewObjectName="com.jdevbook.chap7.model.JavaCourseView" >
+   </ViewUsage>
+   <ViewLinkUsage
+      Name="StudentCourseFk1Link1"
+      ViewLinkObjectName="com.jdevbook.chap7.model.StudentCourseFk1Link"
+      SrcViewUsageName="com.jdevbook.chap7.model.AppModule.CourseView1"
+      DstViewUsageName="com.jdevbook.chap7.model.AppModule.StudentView2" >
+      <Data>
+         <Property Name ="IS_ROOT" Value ="FALSE" />
+         <Property Name ="DST_END_SCOPE" Value ="INSTANCE" />
+         <Property Name ="DST_END_SEQUENCE" Value ="10" />
+         <Property Name ="SRC_END_ID" Value ="d2afb1b5-00f7-1000-8014-7f000001fa90::com.jdevbook.chap7.model.AppModule.StudentCourseFk1Link1::ViewLinkEndInstance" />
+         <Property Name ="DST_END_VISIBILITY" Value ="PROTECTED" />
+         <Property Name ="IS_LEAF" Value ="FALSE" />
+         <Property Name ="IS_ABSTRACT" Value ="FALSE" />
+         <Property Name ="SRC_END_NAME" Value ="Master" />
+         <Property Name ="ID" Value ="d2afb1a6-00f7-1000-8013-7f000001fa90::com.jdevbook.chap7.model.AppModule.StudentCourseFk1Link1::ViewLinkInstance" />
+         <Property Name ="DST_END_NAME" Value ="Detail" />
+         <Property Name ="DST_END_ID" Value ="d2afb1c5-00f7-1000-8015-7f000001fa90::com.jdevbook.chap7.model.AppModule.StudentCourseFk1Link1::ViewLinkEndInstance" />
+         <Property Name ="SRC_END_SEQUENCE" Value ="0" />
+      </Data>
+      <DesignTime>
+         <Attr Name="_isCodegen" Value="true" />
+         <Attr Name="_version" Value="9.0.5.13.52" />
+      </DesignTime>
+   </ViewLinkUsage>
+</AppModule>

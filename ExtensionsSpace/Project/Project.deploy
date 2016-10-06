@@ -1,0 +1,27 @@
+<?xml version = '1.0' encoding = 'windows-1252'?>
+<simple-archive-deployment nselem="simple-archive-deployment" class="oracle.jdeveloper.deploy.jar.ArchiveProfile" xmlns="http://xmlns.oracle.com/jdeveloper/905/deploy/jar">
+   <archiveOptions>
+      <additionalManifests/>
+      <compressed>false</compressed>
+      <hasManifest>true</hasManifest>
+      <mainClass/>
+   </archiveOptions>
+   <cdaSettings>
+      <additionalArchives/>
+      <afterFilters/>
+      <beforeFilters/>
+      <duringFilters/>
+      <selectedArchives>
+         <archives class="[Ljava.net.URL;"/>
+         <selectionMode>0</selectionMode>
+      </selectedArchives>
+   </cdaSettings>
+   <jarURL path="../../../lib/ext/Project.jar"/>
+   <profileDeps/>
+   <selectedProjectFiles>
+      <autoInclude>true</autoInclude>
+      <deploySourceAs>0</deploySourceAs>
+      <files class="[Ljava.net.URL;"/>
+      <selectionFilters/>
+   </selectedProjectFiles>
+</simple-archive-deployment>

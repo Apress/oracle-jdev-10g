@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'windows-1252'?>
+<XMLDataNode nselem="XMLDataNode" class="oracle.jdevimpl.webservices.deploy.WebServicesFolder" xmlns="http://xmlns.oracle.com/jdeveloper/905/deploy/webservices">
+   <JAXRPCModel class="oracle.jdeveloper.webservices.JAXRPCJavaModel">
+      <DDFileLocation path="../../../../public_html/WEB-INF/web.xml"/>
+      <EJBClass/>
+      <EJBType>0</EJBType>
+      <GUID>14dc0613-00f8-1000-8003-7f0000011d58</GUID>
+      <JNDILocation/>
+      <URIString>MyWebService1</URIString>
+      <WSDLFileLocation path="IMyWebService1.wsdl"/>
+      <appServer/>
+      <beansFound class="[Ljava.net.URL;"/>
+      <className>com.jdevbook.chap8.ServiceClass</className>
+      <endpoint protocol="http" host="mycomp" port="8988" path="/WebServApp-Project-context-root/MyWebService1"/>
+      <homeInterface/>
+      <messageFormat>3</messageFormat>
+      <untaggedMethodsPublished class="java.util.ArrayList">
+      <Item class="oracle.jdeveloper.webservices.util.MethodSignature">
+            <modifiers>1</modifiers>
+            <name>numberSquare</name>
+            <paramNames>
+               <Item>number</Item>
+            </paramNames>
+            <paramTypes>
+               <Item>int</Item>
+            </paramTypes>
+            <returnType>java.lang.String</returnType>
+         </Item>
+         </untaggedMethodsPublished>
+      <minimumMethods>1</minimumMethods>
+      <portNo>8988</portNo>
+      <publishSuperclass>false</publishSuperclass>
+      <scope>0</scope>
+      <serviceInterface/>
+      <servicePlatform>4</servicePlatform>
+      <servicePlatformEditable>true</servicePlatformEditable>
+      <stateless>true</stateless>
+      <staticInvocation>false</staticInvocation>
+      <targetNamespaceString>http://com/jdevbook/chap8/ServiceClass.wsdl</targetNamespaceString>
+      <targetProjectURL path="../../../../Project.jpr"/>
+      <timeout>0</timeout>
+   </JAXRPCModel>
+   <JMSModel/>
+   <SPModel/>
+   <archiveProfile>
+      <archiveOptions>
+         <additionalManifests/>
+         <compressed>false</compressed>
+         <hasManifest>true</hasManifest>
+         <mainClass/>
+      </archiveOptions>
+      <cdaSettings>
+         <additionalArchives/>
+         <afterFilters/>
+         <beforeFilters/>
+         <duringFilters/>
+         <selectedArchives>
+            <archives/>
+            <selectionMode>0</selectionMode>
+         </selectedArchives>
+      </cdaSettings>
+      <jarURL path="ServiceClass.jar"/>
+      <profileDeps/>
+      <selectedProjectFiles>
+         <autoInclude>false</autoInclude>
+         <deploySourceAs>0</deploySourceAs>
+         <files>
+            <Item path="ServiceClass.java"/>
+         </files>
+         <selectionFilters/>
+      </selectedProjectFiles>
+   </archiveProfile>
+   <defaultJarURL path="ServiceClass.jar"/>
+   <deployPlatform>4</deployPlatform>
+   <listOfChildren class="java.util.ArrayList">
+      <Item class="oracle.jdevimpl.webservices.ide.WSDLArtifactNode">
+         <URL path="IMyWebService1.wsdl"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="IMyWebService1.java"/>
+      </Item>
+   </listOfChildren>
+   <model/>
+   <webServiceURL path="ServiceClass.java"/>
+</XMLDataNode>

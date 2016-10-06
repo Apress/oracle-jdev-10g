@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='windows-1252' ?>
+<!DOCTYPE JboPackage SYSTEM "jbo_03_01.dtd">
+
+<JboPackage
+   Name="model"
+   SeparateXMLFiles="true"
+   PackageName="com.jdevbook.chap7.model" >
+   <Data>
+      <Property Name ="NAMESPACE_REFERENCE" Value ="cfb60df9-00f7-1000-8008-7f000001585e::::BC4JPackage" />
+      <Property Name ="ID" Value ="cfb60e08-00f7-1000-8009-7f000001585e::com.jdevbook.chap7.model::BC4JPackage" />
+   </Data>
+   <DesignTime>
+      <Attr Name="_version" Value="9.0.5.13.52" />
+      <Attr Name="_ejbPackage" Value="false" />
+   </DesignTime>
+   <Containee
+      Name="Student"
+      FullName="com.jdevbook.chap7.model.Student"
+      ObjectType="Entity" >
+   </Containee>
+   <Containee
+      Name="Course"
+      FullName="com.jdevbook.chap7.model.Course"
+      ObjectType="Entity" >
+   </Containee>
+   <Containee
+      Name="StudentCourseFk1Assoc"
+      FullName="com.jdevbook.chap7.model.StudentCourseFk1Assoc"
+      ObjectType="Association" >
+   </Containee>
+   <Containee
+      Name="StudentView"
+      FullName="com.jdevbook.chap7.model.StudentView"
+      ObjectType="ViewObject" >
+   </Containee>
+   <Containee
+      Name="CourseView"
+      FullName="com.jdevbook.chap7.model.CourseView"
+      ObjectType="ViewObject" >
+   </Containee>
+   <Containee
+      Name="StudentCourseFk1Link"
+      FullName="com.jdevbook.chap7.model.StudentCourseFk1Link"
+      ObjectType="ViewLink" >
+   </Containee>
+   <Containee
+      Name="AppModule"
+      FullName="com.jdevbook.chap7.model.AppModule"
+      ObjectType="AppModule" >
+   </Containee>
+   <Containee
+      Name="JavaCourseView"
+      FullName="com.jdevbook.chap7.model.JavaCourseView"
+      ObjectType="ViewObject" >
+   </Containee>
+</JboPackage>

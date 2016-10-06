@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'windows-1252'?>
+<ModelersMap class="java.util.HashMap">
+   <Item>
+      <Key>b39fbd54-00f7-1000-8001-7f0000019fc4</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com</Item>
+         <Item/>
+         <Item>UMLPackage</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>b39fbdc2-00f7-1000-8002-7f0000019fc4</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook</Item>
+         <Item/>
+         <Item>UMLPackage</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>b39fbdd1-00f7-1000-8003-7f0000019fc4</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook.chap6</Item>
+         <Item/>
+         <Item>UMLPackage</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>b39fbdd1-00f7-1000-8004-7f0000019fc4</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook.chap6.ejbapp</Item>
+         <Item/>
+         <Item>UMLPackage</Item>
+      </Value>
+   </Item>
+   <Item>
+      <Key>b39fc3ad-00f7-1000-8005-7f0000019fc4</Key>
+      <Value class="[Ljava.lang.String;">
+         <Item>com.jdevbook.chap6.ejbapp.Student Course EJB Diagram</Item>
+         <Item>oxd_ejb</Item>
+         <Item>Diagram</Item>
+      </Value>
+   </Item>
+</ModelersMap>

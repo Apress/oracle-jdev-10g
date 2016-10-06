@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<page xmlns="http://xmlns.oracle.com/uix/controller"
+      xmlns:ui="http://xmlns.oracle.com/uix/ui"
+      xmlns:ctrl="http://xmlns.oracle.com/uix/controller"
+      xmlns:html="http://www.w3.org/TR/REC-html40"
+      expressionLanguage="el">
+  <content>
+    <dataScope xmlns="http://xmlns.oracle.com/uix/ui">
+      <provider>
+        <!-- Add DataProviders (<data> elements) here -->
+      </provider>
+
+      <contents>
+        <document>
+          <metaContainer>
+            <!-- Set the page title -->
+            <head title=""/>
+          </metaContainer>
+          <contents>
+            <body>
+              <contents>
+                <form name="form0">
+                  <contents>
+                    <pageLayout title="">
+
+                      <!-- main contents -->
+                      <contents>
+                        <!-- Define the content of the page here -->
+                        <flowLayout>
+                          <contents>
+                            <header rendered="${ui:defaulting(data.StudentSearchUIModel.StudentView1Iterator.findMode, true)}" text="Search Criteria">
+                              <contents>
+                                <labeledFieldLayout id="searchField5">
+                                  <contents>
+                                    <messageTextInput columns="10" model="${data.StudentSearchUIModel.StudentId}" prompt="StudentId" readOnly="false" required="no"/>
+                                    <messageTextInput columns="10" model="${data.StudentSearchUIModel.StudentName}" prompt="StudentName" readOnly="false" required="no"/>
+                                    <messageTextInput columns="10" model="${data.StudentSearchUIModel.CourseId}" prompt="CourseId" readOnly="false" required="no"/>
+                                  </contents>
+                                </labeledFieldLayout>
+                                <pageButtonBar>
+                                  <contents>
+                                    <submitButton model="${data.StudentSearchUIModel.Execute}" rendered="${ui:defaulting(data.StudentSearchUIModel.StudentView1Iterator.findMode, true)}" text="Execute Query"/>
+                                    <submitButton model="${data.StudentSearchUIModel.Create}" rendered="${ui:defaulting(data.StudentSearchUIModel.StudentView1Iterator.findMode, true)}" text="New Criteria"/>
+                                    <submitButton model="${data.StudentSearchUIModel.Delete}" rendered="${ui:defaulting(data.StudentSearchUIModel.StudentView1Iterator.findMode, true)}" text="Delete Criteria"/>
+                                  </contents>
+                                </pageButtonBar>
+                              </contents>
+                            </header>
+                            <header text="${ui:cond(data.StudentSearchUIModel.StudentView1Iterator.findMode, 'Current Criteria','Results')}">
+                              <contents>
+                                <submitButton model="${data.StudentSearchUIModel.Find}" rendered="${not data.StudentSearchUIModel.StudentView1Iterator.findMode}" text="Find"/>
+                                <table id="StudentView15" model="${data.StudentSearchUIModel.StudentView1}">
+                                  <contents>
+                                    <column>
+                                      <columnFormat columnDataFormat="numberFormat"/>
+                                      <columnHeader>
+                                        <sortableHeader text="StudentId"/>
+                                      </columnHeader>
+                                      <contents>
+                                        <messageTextInput columns="10" model="${uix.current.StudentId}" prompt="StudentId" readOnly="true">
+                                          <onSubmitValidater>
+                                            <decimal/>
+                                          </onSubmitValidater>
+                                        </messageTextInput>
+                                      </contents>
+                                    </column>
+                                    <column>
+                                      <columnHeader>
+                                        <sortableHeader text="StudentName"/>
+                                      </columnHeader>
+                                      <contents>
+                                        <messageTextInput columns="10" model="${uix.current.StudentName}" prompt="StudentName" readOnly="true"/>
+                                      </contents>
+                                    </column>
+                                    <column>
+                                      <columnFormat columnDataFormat="numberFormat"/>
+                                      <columnHeader>
+                                        <sortableHeader text="CourseId"/>
+                                      </columnHeader>
+                                      <contents>
+                                        <messageTextInput columns="10" model="${uix.current.CourseId}" prompt="CourseId" readOnly="true">
+                                          <onSubmitValidater>
+                                            <decimal/>
+                                          </onSubmitValidater>
+                                        </messageTextInput>
+                                      </contents>
+                                    </column>
+                                  </contents>
+                                  <tableSelection>
+                                    <singleSelection selectedIndex="${data.StudentSearchUIModel.StudentView1Iterator.currentRowIndexInRange}">
+                                      <primaryClientAction>
+                                        <firePartialAction event="select" source="StudentView15" targets="searchField5"/>
+                                      </primaryClientAction>
+                                    </singleSelection>
+                                  </tableSelection>
+                                </table>
+                              </contents>
+                            </header>
+                          </contents>
+                        </flowLayout>
+                      </contents>
+
+                      <!-- navigation -->
+                      <tabs/>
+                      <pageButtons/>
+                      <globalButtons/>
+                      <pageHeader/>
+
+                      <!-- side sections -->
+                      <start/>
+                      <end/>
+
+                      <!-- footer sections -->
+                      <about/>
+                      <copyright/>
+                      <privacy/>
+
+                      <!-- branding images -->
+                      <corporateBranding/>
+                      <productBranding/>
+                    </pageLayout>
+                  </contents>
+                </form>
+              </contents>
+            </body>
+          </contents>
+        </document>
+      </contents>
+    </dataScope>
+  </content>
+
+  <handlers>
+    <!-- Add EventHandlers (<event> elements) here  -->
+    <event name="goto" source="StudentView15">
+      <compound>
+        <set property="rangeStart" target="${data.StudentSearchUIModel.StudentView1Iterator}" value="${param.value - 1}"/>
+      </compound>
+    </event>
+    <event name="select" source="StudentView15">
+      <set property="currentRowIndexInRange" target="${data.StudentSearchUIModel.StudentView1Iterator}" value="${ui:tableSelectedIndex(uix, 'StudentView15')}"/>
+    </event>
+  </handlers>
+
+</page>
+

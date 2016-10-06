@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<configurations xmlns="http://xmlns.oracle.com/uix/config">
+
+  <application-configuration debug="false">
+    <!--
+    <default-expression-language>el</default-expression-language>
+    -->
+    <ui-extensions>
+      <extension-class>
+        oracle.cabo.data.jbo.ui.JboUIExtension
+      </extension-class>
+      <extension-class>
+        oracle.cabo.servlet.struts.StrutsUIExtension
+      </extension-class>
+    </ui-extensions>
+  </application-configuration>
+
+  <default-configuration>
+    <!--
+    <disable-partial-rendering>true</disable-partial-rendering>
+    -->
+<!--
+    <look-and-feel>blaf</look-and-feel>
+-->    
+    <look-and-feel>minimal</look-and-feel>
+    
+
+
+    <!-- Use the following setting to configure the base location for the cabo distributables -->
+    <!--
+      <base-directory>
+      <full-uri>http://localhost:7001</full-uri>
+      <full-path>C:\bea\user_projects\jdev\applications\DefaultWebApp</full-path>
+      </base-directory> -->
+  </default-configuration>
+</configurations>
